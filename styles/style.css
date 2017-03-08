@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background: #ecf0f1;
+    display: flex;
+    flex-direction: row;
+}
+
+.body .sidebar {    
+    background: #34495e;
+    height: 100%;
+    width: 300px;
+}
+
+.body .content {
+    flex-grow: 100%;
+    height: 100%;
+    width: 100%;
+    resize: vertical;
+}
+.options {
+    padding: 10px 0px 50px 20px;
+}
+.settings {
+    padding-left: 20px;
+    color: #7f8c8d;
+}
+
+ul.settings li {
+    list-style: none;
+}
+ul.settings li ul {
+    margin: 0 0 0 15px;
+    
+}
+ul.settings li ul li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+ul.settings li ul li i {
+    margin-right: 10px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    color: #2980b9;
+}
+
+.searchbar {
+    height: 50px;    
+}
+
+.searchbar input {
+    width: 45%;
+    margin: 10px 0px 0px 15px;
+    font-size: 10px;
+}
+

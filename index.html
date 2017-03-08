@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/skeleton.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./node_modules/material-design-icons/iconfont/material-icons.css">
+    </head>
+    <body>        
+        <div class="body row">
+            <div class="sidebar">
+                <div class="options">
+                    <i class="clickable material-icons">settings</i>
+                </div>
+                <ul class="settings">
+                    <li> Favorites
+                        <ul>
+                            <li class="clickable"><i class="material-icons">home</i>Home</li>
+                            <li class="clickable"><i class="material-icons">ondemand_video</i>Videos</li>
+                            <li class="clickable"><i class="material-icons">photo_camera</i>Pictures</li>
+                            <li class="clickable"><i class="material-icons">audiotrack</i>Music</li>
+                            <li class="clickable"><i class="material-icons">cloud_download</i>Downloads</li>
+                        </ul>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="content">
+                <div class="searchbar row">
+                    <input type="text" placeholder="Search files and fodlers in this directory">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        require('./render.js')
+    </script>
+</html>
